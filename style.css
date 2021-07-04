@@ -141,16 +141,20 @@ main a{
 }
 
 .productive-item h1{
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: -20%;
 }
 
 .productive-item p{
     font-weight:100;
     font-size: 12px;
+    width:50vh;
+    margin-left: -20%;
 }
 
 .productive-item a{
     color: hsl(176, 68%, 64%);
+    margin-left: -20%;
 }
 
 /*---------- Testimonial ------------*/
