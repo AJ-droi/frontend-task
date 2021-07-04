@@ -322,7 +322,7 @@ footer{
 
 /*---------- Media Queries ------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and  (max-width: 480px) {
     body{
         font-family: 'Open Sans', sans-serif;
         Font-size: 14px;
@@ -340,17 +340,18 @@ footer{
     nav img{
         width:auto;
         height:12vh;
-        margin:8% 3%;
+        margin:9% 3%;
     }
     
     .nav-item{
-       margin: 12% 10% 0% 0%;
+       margin: 14% 4% 0% 0%;
        width: 100%;
+       
     }
   
     .nav-item a{
         font-weight: 400;
-        margin-left: 7%;
+        padding-left: 4%;
     }
     
     /*---------- Main Body------------*/
@@ -360,28 +361,28 @@ footer{
     }
     
     #main{
-        height: 50vh;
+        margin: 0%;
     }
     
     #main h1{
-        font-size: 18px;
-        width:50vh;
+        font-size: 26px;
+        width: 70vh;
         line-height: 1.5;
-        margin-left: 25%;
+        padding-left: 8%;
     }
     
     #main p{
         text-align: justify;
         font-weight: 400;
         line-height: 1.5;
-        font-size: 12px;
-        width:50vh;
-        margin-left: 25%;
+        font-size: 16px;
+        width:65vh;
+        margin-left: -8%;
     }
     
     main a{
         padding: 1em 4em;
-        width:40vh;
+        margin-left:-12%;
     }
 
     #image{
@@ -400,15 +401,17 @@ footer{
         grid-template-rows: auto auto auto auto;
         justify-content: center;
         gap:10% 0%;
-        width: 70%;
-        margin-left: 17%;
-        margin-top:65%;
+        margin-top:12%;
+        margin-left:7%;
     }
 
     
     .service-item p{
         font-weight:100;
-        font-size: 12px;
+        font-size: 16px;
+        margin-left: -10%;
+        line-height: 1.5;
+        text-align: centre;
     }
     
     .service-item img{
@@ -418,7 +421,7 @@ footer{
     
     /*----------Be Productive ------------*/
     .productive{
-        margin-top: 50%;
+        margin-top: 80%;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto;
@@ -427,7 +430,8 @@ footer{
     }
     
     #productive img{
-        width:80vh;
+        width:60vh;
+        margin-left:-10%;
     }
 
     
@@ -439,6 +443,7 @@ footer{
     .productive-item p{
         font-weight:100;
         font-size: 12px;
+        width:60vh;
         text-align: justify;
     }
     
@@ -455,12 +460,13 @@ footer{
     /*---------- Testimonial ------------*/
     
     #testimonial{
+        margin-top: 30%;
         margin-bottom: 30%;
     }
     
     #testimonial img{
         margin-bottom: -2%;
-        margin-left:22%;
+        margin-left:12%;
         width: 7vh;
     }
     
@@ -474,6 +480,7 @@ footer{
     .testimonial-item{
         width:50vh;
         height: 30vh;
+        margin-left:-10%;
     }
     
     .testimonial-item p{
@@ -504,7 +511,7 @@ footer{
         color:white;
         background-color: hsl(219, 30%, 18%);
         padding:3%;
-        margin-left: 14%;
+        margin-left: 5%;
         margin-bottom: -26%;
         z-index: 1;
     }
